@@ -1,0 +1,58 @@
+html {
+    margin: 0;
+  }
+  
+  .container{
+    margin: 300px 100px;
+    width: 100%;
+    text-align: center; 
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 35px;
+    text-shadow: 2px 2px yellowgreen;
+    animation: move-text 1s ease-in-out infinite alternate;
+}
+
+  .buttons-container {
+    display: flex;
+    margin-bottom: 80px;
+    
+  }
+  
+  .button{
+    width: 100px;
+    height: 100px;
+    border: solid yellow 2px;
+    display: inline-block;
+    border-radius: 15%;
+    color: black;
+    margin: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.button:last-child {
+    margin-right: 0;
+}
+  
+ 
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-shadow: 2px 2px wheat;
+    color: black;
+  }
+
+  
+  
+  @keyframes move-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50px);
+    }
+  }
